@@ -28,8 +28,23 @@
     color: #fff;
     text-align: center;
     text-shadow: 0 0 10px #000;
-    animation: fadeIn 1s ease-in-out;
-    animation-fill-mode: forwards;
+}
+#title-container{
+    font-size: 5rem;
+}
+#fade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("fade.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 #scroll-prompt{
     position: absolute;
